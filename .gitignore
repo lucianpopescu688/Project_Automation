@@ -1,0 +1,17 @@
+# UiPath Studio specific
+.local/
+.project/
+.objects/
+.settings/
+.tmh/
+# Excel temporary files
+~$*.xlsx
+# Screenshots
+.screenshots/
+# Compiled files
+*.dll
+*.nupkg
+# NuGet packages
+packages/
+# Log files
+*.log

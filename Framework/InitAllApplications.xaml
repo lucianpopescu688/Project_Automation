@@ -26,8 +26,8 @@
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Init All Applications" sap:VirtualizedContainerService.HintSize="500,500">
-    <ui:LogMessage Level="Info" Message="[&quot;Opening TripAdvisor...&quot;]" />
-    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open TripAdvisor" Url="https://www.tripadvisor.com">
+    <ui:LogMessage Level="Info" Message="[&quot;Opening GetYourGuide...&quot;]" />
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open GetYourGuide" Url="https://www.getyourguide.com">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
